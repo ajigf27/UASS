@@ -1,0 +1,61 @@
+# CRUD Application
+
+This is a simple CRUD (Create, Read, Update, Delete) application built using Bootstrap 5 and DataTables. The application allows users to manage a list of entries in a user-friendly interface.
+
+## Project Structure
+
+```
+crud-app
+├── src
+│   ├── index.html        # Main HTML document for the application
+│   ├── css
+│   │   └── styles.css    # Custom styles for the application
+│   ├── js
+│   │   └── app.js        # JavaScript code for CRUD operations
+├── package.json          # Configuration file for npm
+└── README.md             # Documentation for the project
+```
+
+## Features
+
+- **Create**: Add new entries to the table.
+- **Read**: View existing entries in a structured table format.
+- **Update**: Edit existing entries directly in the table.
+- **Delete**: Remove entries from the table.
+
+## Technologies Used
+
+- **Bootstrap 5**: For responsive design and styling.
+- **DataTables**: For enhanced table functionality, including sorting and searching.
+- **JavaScript**: For implementing CRUD operations.
+
+## Getting Started
+
+To set up and run the application, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd crud-app
+   ```
+
+3. Install the dependencies:
+   ```
+   npm install
+   ```
+
+4. Open `src/index.html` in your web browser to view the application.
+
+## Usage
+
+- Use the form provided to add new entries.
+- Click on an entry in the table to edit or delete it.
+- Utilize the search and sort features provided by DataTables for better data management.
+
+## Contributing
+
+Feel free to submit issues or pull requests for improvements or bug fixes. Your contributions are welcome!
