@@ -1,0 +1,155 @@
+body {
+    font-family: 'Helvetica', sans-serif !important;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradien latar belakang */
+    color: #fff; /* Warna teks */
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar-custom {
+    background-color: rgba(0, 123, 255, 0.8); /* Warna biru muda dengan transparansi */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Ukuran font lebih besar */
+    font-weight: bold; /* Teks tebal */
+    font-family: 'Helvetica', sans-serif !important;
+}
+
+.table {
+    margin-top: 20px;
+    background-color: rgba(248, 9, 9, 0.1); /* Transparansi latar belakang */
+    border-radius: 10px; /* Tambahkan border radius */
+    overflow: hidden; /* Sembunyikan overflow */
+    font-family: 'Helvetica', sans-serif; /* Font untuk tabel */
+    font-size: 1rem; /* Ukuran font untuk tabel */
+    color: #d83c3c; /* Warna teks untuk tabel */
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    padding: 15px; /* Tambahkan padding */
+    font-size: 1.2rem; /* Ukuran font lebih besar */
+    font-family: 'Helvetica', sans-serif !important;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 10px; /* Tambahkan padding */
+    font-family: 'Helvetica', sans-serif !important;
+}
+
+.btn-custom {
+    margin-right: 10px;
+    background-color: #007bff; /* Warna biru muda */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Helvetica', sans-serif !important;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #007bff;
+}
+
+.card-custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan shadow */
+    border-radius: 10px; /* Tambahkan border radius */
+    overflow: hidden; /* Sembunyikan overflow */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparansi latar belakang */
+}
+
+.card-header-custom {
+    background-color: rgba(0, 123, 255, 0.8); /* Warna biru muda dengan transparansi */
+    color: white; /* Warna teks putih */
+    padding: 15px; /* Tambahkan padding */
+    font-size: 1.5rem; /* Ukuran font lebih besar */
+    font-family: 'Helvetica', sans-serif !important; /* Ganti font ke Helvetica */
+    font-weight: bold; /* Membuat teks tebal */
+}
+
+.card-body-custom {
+    padding: 20px; /* Tambahkan padding */
+    font-family: 'Helvetica', sans-serif !important; /* Ganti font ke Helvetica */
+}
+
+.highlight {
+    font-size: 1.2rem; /* Ukuran font lebih besar */
+    font-weight: bold; /* Teks tebal */
+    font-family: 'Helvetica', sans-serif !important; /* Ganti font ke Helvetica */
+}
+
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradien latar belakang */
+    color: #fff; /* Warna teks */
+    font-family: 'Helvetica', sans-serif; /* Font */
+}
+.navbar-custom {
+    background-color: #007bff; /* Warna biru muda */
+}
+.btn-custom {
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transisi untuk tombol */
+}
+.btn-custom:hover {
+    background-color: white;
+    color: #007bff;
+}
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+.table td {
+    vertical-align: middle;
+    transition: background-color 0.3s ease; /* Transisi untuk sel tabel */
+}
+.table tr:hover td {
+    background-color: rgba(0, 123, 255, 0.1); /* Warna latar belakang saat hover */
+}
+.modal-header-custom {
+    background-color: #007bff;
+    color: white;
+}
+.modal-body-custom {
+    color: #000; /* Warna teks hitam untuk modal body */
+}
+.card-custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan shadow */
+    border-radius: 10px; /* Tambahkan border radius */
+    overflow: hidden; /* Sembunyikan overflow */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparansi latar belakang */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi untuk card */
+}
+.card-custom:hover {
+    transform: translateY(-10px); /* Efek hover untuk card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek shadow saat hover */
+}
+.card-header-custom {
+    background-color: rgba(0, 123, 255, 0.8); /* Warna biru muda dengan transparansi */
+    color: white; /* Warna teks putih */
+    padding: 15px; /* Tambahkan padding */
+    font-size: 1.5rem; /* Ukuran font lebih besar */
+    font-family: 'Helvetica', sans-serif; /* Ganti font ke Helvetica */
+    font-weight: bold; /* Membuat teks tebal */
+}
+.card-body-custom {
+    padding: 20px; /* Tambahkan padding */
+    font-family: 'Helvetica', sans-serif; /* Ganti font ke Helvetica */
+}
+.highlight {
+    font-size: 1.2rem; /* Ukuran font lebih besar */
+    font-weight: bold; /* Teks tebal */
+    font-family: 'Helvetica', sans-serif; /* Ganti font ke Helvetica */
+}
