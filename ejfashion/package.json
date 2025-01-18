@@ -1,0 +1,23 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "A simple CRUD application using Bootstrap 5 and DataTables.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "datatables.net": "^1.11.5",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "CRUD",
+    "Bootstrap",
+    "DataTables"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
